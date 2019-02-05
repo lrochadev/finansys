@@ -12,14 +12,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Dependencies
 
-bootstrap;
-jquery;
-angular-imask;
-currency-formatter;
-moment;
-toastr;
-primeng;
-primeicons;
-chart.js;
-angular-in-memory-web-api;
+**bootstrap<br/>
+jquery<br/>
+angular-imask<br/>
+currency-formatter<br/>
+moment<br/>
+toastr<br/>
+primeng<br/>
+primeicons<br/>
+chart.js<br/>
+angular-in-memory-web-api**
 
