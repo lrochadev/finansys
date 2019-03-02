@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
-import { CategoryFormComponent } from './category-form/category-form.component';
-import { CategoryListComponent } from './category-list/category-list.component';
+import { CategoryListComponent } from "./category-list/category-list.component";
+import { CategoryFormComponent } from "./category-form/category-form.component";
 
 const routes: Routes = [
   { path: '', component: CategoryListComponent },
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class CategoriesRoutingModule {}
+export class CategoriesRoutingModule { }
